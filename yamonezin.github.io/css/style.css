@@ -1,0 +1,49 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("../myimg/yamone.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color:#34495E  ;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color:#34495E  ;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #34495E;
+    }
+  }
+
+
+    
+
+
+#profile-section{
+    padding-top: 30px;
+    
+}
+#my-progress{
+    padding-top: 30px;
+}
+#contact-me{
+    padding-top: 70px;
+
+#touch-me{
+
+}
+.third-row{
+    padding-top: 30px;
+}
